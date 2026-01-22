@@ -1,7 +1,7 @@
 const mongoose = require("mongoose")
 
 /**
- * Course belongs to a user(owner) for per-user data isolation
+ * Course belongs to a user (owner) for per-user data isolation
  */
 
 const courseSchema = new mongoose.Schema(

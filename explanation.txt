@@ -1,7 +1,4 @@
-The Course schema was designed to associate each course with a specific user to ensure secure, data access. 
-
-Validation rules require key fields and restrict acceptable values using enums to prevent invalid data from being saved. 
-
-CRUD operations were implemented with ownership checks to ensure users can only access their own courses. 
-
-Schema validation is enforced during updates, and timestamps are used to track course creation and modification.
+The course schema was designed to associate each course with a specific user. 
+There are three titles: beginner, intermediate, and advanced for course difficulty selection.
+Those are the only difficulty options that you can pick because of enum.
+We don't want to let people make up their own difficulty options.
